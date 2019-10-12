@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5A99CA5B2351910A002960F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA5A2351910A002960F9 /* AppDelegate.swift */; };
+		5A99CA5D2351910A002960F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA5C2351910A002960F9 /* SceneDelegate.swift */; };
+		5A99CA5F2351910A002960F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA5E2351910A002960F9 /* ViewController.swift */; };
+		5A99CA622351910A002960F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A99CA602351910A002960F9 /* Main.storyboard */; };
+		5A99CA642351910B002960F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A99CA632351910B002960F9 /* Assets.xcassets */; };
+		5A99CA672351910B002960F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A99CA652351910B002960F9 /* LaunchScreen.storyboard */; };
+		5A99CA722351910B002960F9 /* Allergy_CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA712351910B002960F9 /* Allergy_CompassTests.swift */; };
+		5A99CA7D2351910C002960F9 /* Allergy_CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA7C2351910C002960F9 /* Allergy_CompassUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5A99CA6E2351910B002960F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A99CA4F2351910A002960F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A99CA562351910A002960F9;
+			remoteInfo = "Allergy Compass";
+		};
+		5A99CA792351910C002960F9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5A99CA4F2351910A002960F9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5A99CA562351910A002960F9;
+			remoteInfo = "Allergy Compass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5A99CA572351910A002960F9 /* Allergy Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allergy Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A99CA5A2351910A002960F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5A99CA5C2351910A002960F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5A99CA5E2351910A002960F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A99CA612351910A002960F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5A99CA632351910B002960F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5A99CA662351910B002960F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5A99CA682351910B002960F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A99CA6D2351910B002960F9 /* Allergy CompassTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Allergy CompassTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A99CA712351910B002960F9 /* Allergy_CompassTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergy_CompassTests.swift; sourceTree = "<group>"; };
+		5A99CA732351910B002960F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A99CA782351910C002960F9 /* Allergy CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Allergy CompassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A99CA7C2351910C002960F9 /* Allergy_CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergy_CompassUITests.swift; sourceTree = "<group>"; };
+		5A99CA7E2351910C002960F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5A99CA542351910A002960F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A99CA6A2351910B002960F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A99CA752351910C002960F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A99CA4E2351910A002960F9 = {
+			isa = PBXGroup;
+			children = (
+				5A99CA592351910A002960F9 /* Allergy Compass */,
+				5A99CA702351910B002960F9 /* Allergy CompassTests */,
+				5A99CA7B2351910C002960F9 /* Allergy CompassUITests */,
+				5A99CA582351910A002960F9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A99CA582351910A002960F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5A99CA572351910A002960F9 /* Allergy Compass.app */,
+				5A99CA6D2351910B002960F9 /* Allergy CompassTests.xctest */,
+				5A99CA782351910C002960F9 /* Allergy CompassUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A99CA592351910A002960F9 /* Allergy Compass */ = {
+			isa = PBXGroup;
+			children = (
+				5A99CA5A2351910A002960F9 /* AppDelegate.swift */,
+				5A99CA5C2351910A002960F9 /* SceneDelegate.swift */,
+				5A99CA5E2351910A002960F9 /* ViewController.swift */,
+				5A99CA602351910A002960F9 /* Main.storyboard */,
+				5A99CA632351910B002960F9 /* Assets.xcassets */,
+				5A99CA652351910B002960F9 /* LaunchScreen.storyboard */,
+				5A99CA682351910B002960F9 /* Info.plist */,
+			);
+			path = "Allergy Compass";
+			sourceTree = "<group>";
+		};
+		5A99CA702351910B002960F9 /* Allergy CompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				5A99CA712351910B002960F9 /* Allergy_CompassTests.swift */,
+				5A99CA732351910B002960F9 /* Info.plist */,
+			);
+			path = "Allergy CompassTests";
+			sourceTree = "<group>";
+		};
+		5A99CA7B2351910C002960F9 /* Allergy CompassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5A99CA7C2351910C002960F9 /* Allergy_CompassUITests.swift */,
+				5A99CA7E2351910C002960F9 /* Info.plist */,
+			);
+			path = "Allergy CompassUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5A99CA562351910A002960F9 /* Allergy Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A99CA812351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy Compass" */;
+			buildPhases = (
+				5A99CA532351910A002960F9 /* Sources */,
+				5A99CA542351910A002960F9 /* Frameworks */,
+				5A99CA552351910A002960F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Allergy Compass";
+			productName = "Allergy Compass";
+			productReference = 5A99CA572351910A002960F9 /* Allergy Compass.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5A99CA6C2351910B002960F9 /* Allergy CompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A99CA842351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy CompassTests" */;
+			buildPhases = (
+				5A99CA692351910B002960F9 /* Sources */,
+				5A99CA6A2351910B002960F9 /* Frameworks */,
+				5A99CA6B2351910B002960F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A99CA6F2351910B002960F9 /* PBXTargetDependency */,
+			);
+			name = "Allergy CompassTests";
+			productName = "Allergy CompassTests";
+			productReference = 5A99CA6D2351910B002960F9 /* Allergy CompassTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5A99CA772351910C002960F9 /* Allergy CompassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5A99CA872351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy CompassUITests" */;
+			buildPhases = (
+				5A99CA742351910C002960F9 /* Sources */,
+				5A99CA752351910C002960F9 /* Frameworks */,
+				5A99CA762351910C002960F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A99CA7A2351910C002960F9 /* PBXTargetDependency */,
+			);
+			name = "Allergy CompassUITests";
+			productName = "Allergy CompassUITests";
+			productReference = 5A99CA782351910C002960F9 /* Allergy CompassUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5A99CA4F2351910A002960F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Ankith Udupa";
+				TargetAttributes = {
+					5A99CA562351910A002960F9 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					5A99CA6C2351910B002960F9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5A99CA562351910A002960F9;
+					};
+					5A99CA772351910C002960F9 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 5A99CA562351910A002960F9;
+					};
+				};
+			};
+			buildConfigurationList = 5A99CA522351910A002960F9 /* Build configuration list for PBXProject "Allergy Compass" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5A99CA4E2351910A002960F9;
+			productRefGroup = 5A99CA582351910A002960F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5A99CA562351910A002960F9 /* Allergy Compass */,
+				5A99CA6C2351910B002960F9 /* Allergy CompassTests */,
+				5A99CA772351910C002960F9 /* Allergy CompassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A99CA552351910A002960F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A99CA672351910B002960F9 /* LaunchScreen.storyboard in Resources */,
+				5A99CA642351910B002960F9 /* Assets.xcassets in Resources */,
+				5A99CA622351910A002960F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A99CA6B2351910B002960F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A99CA762351910C002960F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5A99CA532351910A002960F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A99CA5F2351910A002960F9 /* ViewController.swift in Sources */,
+				5A99CA5B2351910A002960F9 /* AppDelegate.swift in Sources */,
+				5A99CA5D2351910A002960F9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A99CA692351910B002960F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A99CA722351910B002960F9 /* Allergy_CompassTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A99CA742351910C002960F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5A99CA7D2351910C002960F9 /* Allergy_CompassUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5A99CA6F2351910B002960F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A99CA562351910A002960F9 /* Allergy Compass */;
+			targetProxy = 5A99CA6E2351910B002960F9 /* PBXContainerItemProxy */;
+		};
+		5A99CA7A2351910C002960F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5A99CA562351910A002960F9 /* Allergy Compass */;
+			targetProxy = 5A99CA792351910C002960F9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5A99CA602351910A002960F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A99CA612351910A002960F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5A99CA652351910B002960F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5A99CA662351910B002960F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5A99CA7F2351910C002960F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5A99CA802351910C002960F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5A99CA822351910C002960F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Allergy Compass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ankith-Apps.Allergy-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5A99CA832351910C002960F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Allergy Compass/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ankith-Apps.Allergy-Compass";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5A99CA852351910C002960F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Allergy CompassTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ankith-Apps.Allergy-CompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allergy Compass.app/Allergy Compass";
+			};
+			name = Debug;
+		};
+		5A99CA862351910C002960F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Allergy CompassTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ankith-Apps.Allergy-CompassTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Allergy Compass.app/Allergy Compass";
+			};
+			name = Release;
+		};
+		5A99CA882351910C002960F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Allergy CompassUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ankith-Apps.Allergy-CompassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Allergy Compass";
+			};
+			name = Debug;
+		};
+		5A99CA892351910C002960F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Allergy CompassUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ankith-Apps.Allergy-CompassUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Allergy Compass";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5A99CA522351910A002960F9 /* Build configuration list for PBXProject "Allergy Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A99CA7F2351910C002960F9 /* Debug */,
+				5A99CA802351910C002960F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A99CA812351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A99CA822351910C002960F9 /* Debug */,
+				5A99CA832351910C002960F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A99CA842351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy CompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A99CA852351910C002960F9 /* Debug */,
+				5A99CA862351910C002960F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5A99CA872351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy CompassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A99CA882351910C002960F9 /* Debug */,
+				5A99CA892351910C002960F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5A99CA4F2351910A002960F9 /* Project object */;
+}
