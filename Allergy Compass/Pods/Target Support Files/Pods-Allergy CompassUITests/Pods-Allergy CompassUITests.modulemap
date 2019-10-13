@@ -1,0 +1,6 @@
+framework module Pods_Allergy_CompassUITests {
+  umbrella header "Pods-Allergy CompassUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

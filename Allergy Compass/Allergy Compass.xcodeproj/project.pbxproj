@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FAC3F6BA5182F33F76B4EC2 /* Pods_Allergy_Compass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200A956CA0DC6ADE4C9AF2B2 /* Pods_Allergy_Compass.framework */; };
+		40008EE2218D78DFB3F4F35C /* Pods_Allergy_CompassTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DCD727E1D8BB1E952D2D496 /* Pods_Allergy_CompassTests.framework */; };
+		5A280B822351A44A00C2E3AE /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A280B812351A44A00C2E3AE /* CameraViewController.swift */; };
 		5A99CA5B2351910A002960F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA5A2351910A002960F9 /* AppDelegate.swift */; };
 		5A99CA5D2351910A002960F9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA5C2351910A002960F9 /* SceneDelegate.swift */; };
 		5A99CA5F2351910A002960F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA5E2351910A002960F9 /* ViewController.swift */; };
@@ -15,6 +18,13 @@
 		5A99CA672351910B002960F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A99CA652351910B002960F9 /* LaunchScreen.storyboard */; };
 		5A99CA722351910B002960F9 /* Allergy_CompassTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA712351910B002960F9 /* Allergy_CompassTests.swift */; };
 		5A99CA7D2351910C002960F9 /* Allergy_CompassUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A99CA7C2351910C002960F9 /* Allergy_CompassUITests.swift */; };
+		5AF8470723521CF500A4A13E /* AllergenSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8470623521CF500A4A13E /* AllergenSelector.swift */; };
+		5AF84709235224F200A4A13E /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF84708235224F200A4A13E /* SignUp.swift */; };
+		5AF8470B2352921900A4A13E /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8470A2352921900A4A13E /* Login.swift */; };
+		5AF8470D2352FB9300A4A13E /* Popup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8470C2352FB9300A4A13E /* Popup.swift */; };
+		5AF8470F2352FE8C00A4A13E /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF8470E2352FE8C00A4A13E /* DataStorage.swift */; };
+		5AF847112353558800A4A13E /* Choose.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF847102353558800A4A13E /* Choose.swift */; };
+		6D51D7314F7570761F7DBB56 /* Pods_Allergy_CompassUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E02B12B3F111FCBB514F287F /* Pods_Allergy_CompassUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07AC78413CC8E6A082CFEC95 /* Pods-Allergy Compass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy Compass.debug.xcconfig"; path = "Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass.debug.xcconfig"; sourceTree = "<group>"; };
+		0D15DE5ECFA9A0D9CCF2DF77 /* Pods-Allergy CompassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy CompassTests.debug.xcconfig"; path = "Target Support Files/Pods-Allergy CompassTests/Pods-Allergy CompassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		200A956CA0DC6ADE4C9AF2B2 /* Pods_Allergy_Compass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Allergy_Compass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DCD727E1D8BB1E952D2D496 /* Pods_Allergy_CompassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Allergy_CompassTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A280B812351A44A00C2E3AE /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		5A99CA572351910A002960F9 /* Allergy Compass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Allergy Compass.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A99CA5A2351910A002960F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A99CA5C2351910A002960F9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +64,17 @@
 		5A99CA782351910C002960F9 /* Allergy CompassUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Allergy CompassUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A99CA7C2351910C002960F9 /* Allergy_CompassUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Allergy_CompassUITests.swift; sourceTree = "<group>"; };
 		5A99CA7E2351910C002960F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5AF8470623521CF500A4A13E /* AllergenSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllergenSelector.swift; sourceTree = "<group>"; };
+		5AF84708235224F200A4A13E /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
+		5AF8470A2352921900A4A13E /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		5AF8470C2352FB9300A4A13E /* Popup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup.swift; sourceTree = "<group>"; };
+		5AF8470E2352FE8C00A4A13E /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
+		5AF847102353558800A4A13E /* Choose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Choose.swift; sourceTree = "<group>"; };
+		648F9DA183FA173A5E9F3692 /* Pods-Allergy CompassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy CompassUITests.debug.xcconfig"; path = "Target Support Files/Pods-Allergy CompassUITests/Pods-Allergy CompassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		69769903DCF835EE2E23DA3F /* Pods-Allergy Compass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy Compass.release.xcconfig"; path = "Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass.release.xcconfig"; sourceTree = "<group>"; };
+		985540C798476E0A6E4A40AE /* Pods-Allergy CompassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy CompassTests.release.xcconfig"; path = "Target Support Files/Pods-Allergy CompassTests/Pods-Allergy CompassTests.release.xcconfig"; sourceTree = "<group>"; };
+		E02B12B3F111FCBB514F287F /* Pods_Allergy_CompassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Allergy_CompassUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F194A511DEF12A9B06C019E2 /* Pods-Allergy CompassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Allergy CompassUITests.release.xcconfig"; path = "Target Support Files/Pods-Allergy CompassUITests/Pods-Allergy CompassUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAC3F6BA5182F33F76B4EC2 /* Pods_Allergy_Compass.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40008EE2218D78DFB3F4F35C /* Pods_Allergy_CompassTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6D51D7314F7570761F7DBB56 /* Pods_Allergy_CompassUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +112,8 @@
 				5A99CA702351910B002960F9 /* Allergy CompassTests */,
 				5A99CA7B2351910C002960F9 /* Allergy CompassUITests */,
 				5A99CA582351910A002960F9 /* Products */,
+				FD11F314410EE9AB30068D5A /* Pods */,
+				948C11021949C3B8B06AA365 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +137,13 @@
 				5A99CA632351910B002960F9 /* Assets.xcassets */,
 				5A99CA652351910B002960F9 /* LaunchScreen.storyboard */,
 				5A99CA682351910B002960F9 /* Info.plist */,
+				5A280B812351A44A00C2E3AE /* CameraViewController.swift */,
+				5AF8470623521CF500A4A13E /* AllergenSelector.swift */,
+				5AF84708235224F200A4A13E /* SignUp.swift */,
+				5AF8470A2352921900A4A13E /* Login.swift */,
+				5AF8470C2352FB9300A4A13E /* Popup.swift */,
+				5AF8470E2352FE8C00A4A13E /* DataStorage.swift */,
+				5AF847102353558800A4A13E /* Choose.swift */,
 			);
 			path = "Allergy Compass";
 			sourceTree = "<group>";
@@ -128,6 +166,29 @@
 			path = "Allergy CompassUITests";
 			sourceTree = "<group>";
 		};
+		948C11021949C3B8B06AA365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				200A956CA0DC6ADE4C9AF2B2 /* Pods_Allergy_Compass.framework */,
+				3DCD727E1D8BB1E952D2D496 /* Pods_Allergy_CompassTests.framework */,
+				E02B12B3F111FCBB514F287F /* Pods_Allergy_CompassUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD11F314410EE9AB30068D5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				07AC78413CC8E6A082CFEC95 /* Pods-Allergy Compass.debug.xcconfig */,
+				69769903DCF835EE2E23DA3F /* Pods-Allergy Compass.release.xcconfig */,
+				0D15DE5ECFA9A0D9CCF2DF77 /* Pods-Allergy CompassTests.debug.xcconfig */,
+				985540C798476E0A6E4A40AE /* Pods-Allergy CompassTests.release.xcconfig */,
+				648F9DA183FA173A5E9F3692 /* Pods-Allergy CompassUITests.debug.xcconfig */,
+				F194A511DEF12A9B06C019E2 /* Pods-Allergy CompassUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A99CA812351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy Compass" */;
 			buildPhases = (
+				1D416F172098B4E0518AF5AC /* [CP] Check Pods Manifest.lock */,
 				5A99CA532351910A002960F9 /* Sources */,
 				5A99CA542351910A002960F9 /* Frameworks */,
 				5A99CA552351910A002960F9 /* Resources */,
+				37EC92BAE8F04B3A526919DD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A99CA842351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy CompassTests" */;
 			buildPhases = (
+				D38FD9EFC19B3BA9196133C0 /* [CP] Check Pods Manifest.lock */,
 				5A99CA692351910B002960F9 /* Sources */,
 				5A99CA6A2351910B002960F9 /* Frameworks */,
 				5A99CA6B2351910B002960F9 /* Resources */,
@@ -170,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A99CA872351910C002960F9 /* Build configuration list for PBXNativeTarget "Allergy CompassUITests" */;
 			buildPhases = (
+				21BA678EB6A2DB21847CAC6E /* [CP] Check Pods Manifest.lock */,
 				5A99CA742351910C002960F9 /* Sources */,
 				5A99CA752351910C002960F9 /* Frameworks */,
 				5A99CA762351910C002960F9 /* Resources */,
@@ -254,14 +319,107 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1D416F172098B4E0518AF5AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Allergy Compass-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21BA678EB6A2DB21847CAC6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Allergy CompassUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37EC92BAE8F04B3A526919DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D38FD9EFC19B3BA9196133C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Allergy CompassTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A99CA532351910A002960F9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF847112353558800A4A13E /* Choose.swift in Sources */,
+				5AF8470B2352921900A4A13E /* Login.swift in Sources */,
 				5A99CA5F2351910A002960F9 /* ViewController.swift in Sources */,
+				5AF8470D2352FB9300A4A13E /* Popup.swift in Sources */,
+				5AF8470F2352FE8C00A4A13E /* DataStorage.swift in Sources */,
+				5AF84709235224F200A4A13E /* SignUp.swift in Sources */,
+				5A280B822351A44A00C2E3AE /* CameraViewController.swift in Sources */,
 				5A99CA5B2351910A002960F9 /* AppDelegate.swift in Sources */,
 				5A99CA5D2351910A002960F9 /* SceneDelegate.swift in Sources */,
+				5AF8470723521CF500A4A13E /* AllergenSelector.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,9 +590,11 @@
 		};
 		5A99CA822351910C002960F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07AC78413CC8E6A082CFEC95 /* Pods-Allergy Compass.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8LNB94FDT;
 				INFOPLIST_FILE = "Allergy Compass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -449,9 +609,11 @@
 		};
 		5A99CA832351910C002960F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69769903DCF835EE2E23DA3F /* Pods-Allergy Compass.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8LNB94FDT;
 				INFOPLIST_FILE = "Allergy Compass/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -466,6 +628,7 @@
 		};
 		5A99CA852351910C002960F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D15DE5ECFA9A0D9CCF2DF77 /* Pods-Allergy CompassTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +650,7 @@
 		};
 		5A99CA862351910C002960F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 985540C798476E0A6E4A40AE /* Pods-Allergy CompassTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +672,7 @@
 		};
 		5A99CA882351910C002960F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 648F9DA183FA173A5E9F3692 /* Pods-Allergy CompassUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +692,7 @@
 		};
 		5A99CA892351910C002960F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F194A511DEF12A9B06C019E2 /* Pods-Allergy CompassUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

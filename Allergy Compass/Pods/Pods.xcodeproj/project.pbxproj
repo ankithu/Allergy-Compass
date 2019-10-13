@@ -1,0 +1,1043 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0348E72A279882575367B52CE6A0C2B1 /* M13CheckboxFlatController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B6C15FC833B4D6BF17B64AABE8AE14 /* M13CheckboxFlatController.swift */; };
+		2229A6998218AC6DFF497473500021C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
+		254315B3201BB02B083E2B189DD456E3 /* M13Checkbox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CC68B3A86E6425551F8AFB78F1A998ED /* M13Checkbox-dummy.m */; };
+		27FB8E7237044F69D431570D780EB618 /* Pods-Allergy CompassUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FB73B840B18926C1AC161274E648F09 /* Pods-Allergy CompassUITests-dummy.m */; };
+		3240342CB5ECE0F2B8C449DB96DF1172 /* Pods-Allergy Compass-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7FB5C0673DAF3B36EF46129EDBB22EE /* Pods-Allergy Compass-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E3EB29E1A912DA51B5A537C152AA490 /* M13CheckboxGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11ADEBBF9F6508F304908F924047B31B /* M13CheckboxGestureRecognizer.swift */; };
+		54295CEF5B5271B336B17776A282D3C6 /* M13CheckboxStrokeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD7B1DC2B91101DEC2FD9E8781A5530 /* M13CheckboxStrokeController.swift */; };
+		56BC1A6298E10CCE7703ADBC5AD48FAC /* M13CheckboxExpandController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFF75A31482EB977ED79742A727D629 /* M13CheckboxExpandController.swift */; };
+		690A3616858F1EF14011B02B88924458 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */; };
+		7739D5F4D21132A52676AC6575187C5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
+		7AF77E6823887DFE89A3E24E9E57A34E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */; };
+		88B4067EF8672CE64D431F475CAC55EC /* Pods-Allergy CompassTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E25B5F70C9EC83C8FBA0F91CC50A3DF /* Pods-Allergy CompassTests-dummy.m */; };
+		91DE47E4BCDE92CC97123C314723B3A8 /* M13CheckboxDisclosurePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5840952A04CFAA95BA336043AC1A5F65 /* M13CheckboxDisclosurePathGenerator.swift */; };
+		97A18E7CA66BA87E83A038BF75B2DCB2 /* M13CheckboxAnimationGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94BB241540E44D8637BCEBFB5FE5A206 /* M13CheckboxAnimationGenerator.swift */; };
+		99FBBAF5AEB8A1895DAB1752E3AB115C /* M13CheckboxRadioPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D7D28765AC9C8E3A3C4717496A23D /* M13CheckboxRadioPathGenerator.swift */; };
+		A14D173D1A208AE9ADB6419B6BFBF426 /* M13Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AE329607D72E8ACD6EC21D9D45F9B04 /* M13Checkbox.swift */; };
+		A3B95D051E3D9A63FFD387EFF8F05E0F /* Pods-Allergy Compass-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D9B6C203E307B39A8734B22B4AEF2A /* Pods-Allergy Compass-dummy.m */; };
+		A7448C3B3357059EE87853CFF2BE09C4 /* M13CheckboxAddRemovePathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E59F6FCC139E86AEDDD7D75615F9B7F /* M13CheckboxAddRemovePathGenerator.swift */; };
+		AE32CE1F494D51291E92F6B0C29D7034 /* M13CheckboxSpiralController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96B3DBBBE7519C96D35DFD0B7459792 /* M13CheckboxSpiralController.swift */; };
+		AE52C860B11521E947377598271B58EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
+		B0471D9061D1AE1F54C08242A5773ECF /* M13CheckboxFillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FC0E6830D3153501694B068A9F3DFB9 /* M13CheckboxFillController.swift */; };
+		B323D65D6BE2950D9615F791E7A90A7F /* M13CheckboxDotController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAF933D2FC06E6B883A45C0CA17E9744 /* M13CheckboxDotController.swift */; };
+		B642D0A666A7B76CE25C412820331536 /* M13Checkbox+IB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E2C72EDC8A036D53426A667ACB604A1 /* M13Checkbox+IB.swift */; };
+		BCEFC70D7166CF8EF32BBD963FD1D06B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD608BCCF279B1277BB911F33106997F /* Foundation.framework */; };
+		C10AD695E632D8979EF4F9AA947BCE29 /* Pods-Allergy CompassTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E7B48C1EBAC3E3A1B67ED01C9E4A6EB3 /* Pods-Allergy CompassTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2BA008A914F681607429815D2EDEA95 /* M13CheckboxPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B78B80CAB1AAF8B4F0667C0E88E74D4 /* M13CheckboxPathGenerator.swift */; };
+		CA89E0222ABBC43F957E4F3BF7F46142 /* M13Checkbox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52C8B82D0BDB8346230E4CF784460AF8 /* M13Checkbox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D035EDC528DBF5BA980CDF5299828034 /* M13CheckboxBounceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB44EADFD8CD7B21C070D947A015621 /* M13CheckboxBounceController.swift */; };
+		D5584524FE609C7CD27E83BCB74CE685 /* M13CheckboxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE523114A05177E0CC9B6E0F1AB178E /* M13CheckboxController.swift */; };
+		E08B31BE69E7F9FD79F888D6878470CE /* DefaultValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9BB0A359A5567A9CC9FD9F9E9D6AF6 /* DefaultValues.swift */; };
+		E9D6E5290AA728E26BB83686BABD683A /* M13CheckboxCheckPathGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82B3A8E06131379730D362E99C4B472 /* M13CheckboxCheckPathGenerator.swift */; };
+		F66F6CFF19118E84D625B485982C3210 /* Pods-Allergy CompassUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6987A33599C43B961759F058B1DD60A7 /* Pods-Allergy CompassUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF6BF71F784703DB5F302C257245A51B /* M13CheckboxFadeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE048C201E7502747682B03BE0E4ED1 /* M13CheckboxFadeController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B934CDE22577E7CFA29B4765BD80AF1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90971AC90E5F52443A14E6808002B85E;
+			remoteInfo = "Pods-Allergy Compass";
+		};
+		0BE858ADC6E2E91E84E7EF503A8E42A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7111E54EAE43E89F451A75076C3525ED;
+			remoteInfo = M13Checkbox;
+		};
+		266B63DED3BF4ABCC598A063F3F9DD79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90971AC90E5F52443A14E6808002B85E;
+			remoteInfo = "Pods-Allergy Compass";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013709D306905DA27181D2333D0ADD84 /* Pods_Allergy_CompassUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Allergy_CompassUITests.framework; path = "Pods-Allergy CompassUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		02FB4984223756D173B3AF4A06C66784 /* Pods-Allergy CompassTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Allergy CompassTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0B293F37C9B03BF812B0B223029413F1 /* Pods-Allergy CompassUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Allergy CompassUITests-Info.plist"; sourceTree = "<group>"; };
+		0FB73B840B18926C1AC161274E648F09 /* Pods-Allergy CompassUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Allergy CompassUITests-dummy.m"; sourceTree = "<group>"; };
+		11ADEBBF9F6508F304908F924047B31B /* M13CheckboxGestureRecognizer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxGestureRecognizer.swift; path = Sources/M13CheckboxGestureRecognizer.swift; sourceTree = "<group>"; };
+		1DD7B1DC2B91101DEC2FD9E8781A5530 /* M13CheckboxStrokeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxStrokeController.swift; path = Sources/Managers/M13CheckboxStrokeController.swift; sourceTree = "<group>"; };
+		276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		2942D6913F7930FAA8DA3943A35D1D56 /* Pods_Allergy_Compass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Allergy_Compass.framework; path = "Pods-Allergy Compass.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B78B80CAB1AAF8B4F0667C0E88E74D4 /* M13CheckboxPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxPathGenerator.swift; path = Sources/Paths/M13CheckboxPathGenerator.swift; sourceTree = "<group>"; };
+		2E59F6FCC139E86AEDDD7D75615F9B7F /* M13CheckboxAddRemovePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAddRemovePathGenerator.swift; path = Sources/Paths/M13CheckboxAddRemovePathGenerator.swift; sourceTree = "<group>"; };
+		2FFF75A31482EB977ED79742A727D629 /* M13CheckboxExpandController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxExpandController.swift; path = Sources/Managers/M13CheckboxExpandController.swift; sourceTree = "<group>"; };
+		3CC976CE0F98D3CF3AA06C0E12F25A02 /* M13Checkbox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = M13Checkbox.modulemap; sourceTree = "<group>"; };
+		3EDA1317675094718EE8DAD486E6979F /* Pods-Allergy Compass-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Allergy Compass-acknowledgements.plist"; sourceTree = "<group>"; };
+		3FC0E6830D3153501694B068A9F3DFB9 /* M13CheckboxFillController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFillController.swift; path = Sources/Managers/M13CheckboxFillController.swift; sourceTree = "<group>"; };
+		4AE329607D72E8ACD6EC21D9D45F9B04 /* M13Checkbox.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13Checkbox.swift; path = Sources/M13Checkbox.swift; sourceTree = "<group>"; };
+		4C806B7F993A47357DF0A5632BC6CF42 /* Pods-Allergy Compass-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Allergy Compass-frameworks.sh"; sourceTree = "<group>"; };
+		4E25B5F70C9EC83C8FBA0F91CC50A3DF /* Pods-Allergy CompassTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Allergy CompassTests-dummy.m"; sourceTree = "<group>"; };
+		52C8B82D0BDB8346230E4CF784460AF8 /* M13Checkbox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-umbrella.h"; sourceTree = "<group>"; };
+		5840952A04CFAA95BA336043AC1A5F65 /* M13CheckboxDisclosurePathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDisclosurePathGenerator.swift; path = Sources/Paths/M13CheckboxDisclosurePathGenerator.swift; sourceTree = "<group>"; };
+		5CB44EADFD8CD7B21C070D947A015621 /* M13CheckboxBounceController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxBounceController.swift; path = Sources/Managers/M13CheckboxBounceController.swift; sourceTree = "<group>"; };
+		5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = M13Checkbox.framework; path = M13Checkbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E2C72EDC8A036D53426A667ACB604A1 /* M13Checkbox+IB.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "M13Checkbox+IB.swift"; path = "Sources/M13Checkbox+IB.swift"; sourceTree = "<group>"; };
+		65359601101A1101BA5016AC0F4BCE90 /* Pods-Allergy CompassUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Allergy CompassUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		65F5A4D80294AF89DDCA6DFC257AD202 /* Pods_Allergy_CompassTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Allergy_CompassTests.framework; path = "Pods-Allergy CompassTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6987A33599C43B961759F058B1DD60A7 /* Pods-Allergy CompassUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Allergy CompassUITests-umbrella.h"; sourceTree = "<group>"; };
+		71E48625B501AA24C5BEADA931BAD08E /* Pods-Allergy CompassTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Allergy CompassTests.release.xcconfig"; sourceTree = "<group>"; };
+		78C243A567B230A31A64EE9A2A483FA0 /* Pods-Allergy Compass-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Allergy Compass-Info.plist"; sourceTree = "<group>"; };
+		7B817148A7A0F14AEBCD3F4CF1935630 /* Pods-Allergy CompassUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Allergy CompassUITests.modulemap"; sourceTree = "<group>"; };
+		7E98470441594CB847C58AAB0AD59080 /* Pods-Allergy CompassUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Allergy CompassUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		879D975575221CAC165DC70AB707213B /* Pods-Allergy CompassTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Allergy CompassTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		880D7D28765AC9C8E3A3C4717496A23D /* M13CheckboxRadioPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxRadioPathGenerator.swift; path = Sources/Paths/M13CheckboxRadioPathGenerator.swift; sourceTree = "<group>"; };
+		89D19B9EAE5B03D83569CD8C3860689B /* Pods-Allergy CompassUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Allergy CompassUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8C66840F8DB62B36EA1FD399E0D622B7 /* M13Checkbox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = M13Checkbox.xcconfig; sourceTree = "<group>"; };
+		94BB241540E44D8637BCEBFB5FE5A206 /* M13CheckboxAnimationGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxAnimationGenerator.swift; path = Sources/M13CheckboxAnimationGenerator.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DA8C6A9D1EAE326A6FC6B383A237421 /* Pods-Allergy Compass-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Allergy Compass-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9EE048C201E7502747682B03BE0E4ED1 /* M13CheckboxFadeController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFadeController.swift; path = Sources/Managers/M13CheckboxFadeController.swift; sourceTree = "<group>"; };
+		A687D96F2B67CBC9E9557F27664C0DC0 /* Pods-Allergy Compass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Allergy Compass.release.xcconfig"; sourceTree = "<group>"; };
+		AE32D4AFE65B00CD487BF04E69B52952 /* M13Checkbox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "M13Checkbox-Info.plist"; sourceTree = "<group>"; };
+		B7FB5C0673DAF3B36EF46129EDBB22EE /* Pods-Allergy Compass-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Allergy Compass-umbrella.h"; sourceTree = "<group>"; };
+		B82B3A8E06131379730D362E99C4B472 /* M13CheckboxCheckPathGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxCheckPathGenerator.swift; path = Sources/Paths/M13CheckboxCheckPathGenerator.swift; sourceTree = "<group>"; };
+		C2199D8DB12D18FDEB51905B6B8246F3 /* Pods-Allergy CompassTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Allergy CompassTests.modulemap"; sourceTree = "<group>"; };
+		C69921AB4DA57F278B02ECA3E6D6733D /* Pods-Allergy CompassTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Allergy CompassTests-Info.plist"; sourceTree = "<group>"; };
+		C8B6C15FC833B4D6BF17B64AABE8AE14 /* M13CheckboxFlatController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxFlatController.swift; path = Sources/Managers/M13CheckboxFlatController.swift; sourceTree = "<group>"; };
+		CC68B3A86E6425551F8AFB78F1A998ED /* M13Checkbox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "M13Checkbox-dummy.m"; sourceTree = "<group>"; };
+		D294A81CEC923737F257060FBD516F64 /* M13Checkbox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "M13Checkbox-prefix.pch"; sourceTree = "<group>"; };
+		D96B3DBBBE7519C96D35DFD0B7459792 /* M13CheckboxSpiralController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxSpiralController.swift; path = Sources/Managers/M13CheckboxSpiralController.swift; sourceTree = "<group>"; };
+		DAF933D2FC06E6B883A45C0CA17E9744 /* M13CheckboxDotController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxDotController.swift; path = Sources/Managers/M13CheckboxDotController.swift; sourceTree = "<group>"; };
+		E7B48C1EBAC3E3A1B67ED01C9E4A6EB3 /* Pods-Allergy CompassTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Allergy CompassTests-umbrella.h"; sourceTree = "<group>"; };
+		EAE523114A05177E0CC9B6E0F1AB178E /* M13CheckboxController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = M13CheckboxController.swift; path = Sources/M13CheckboxController.swift; sourceTree = "<group>"; };
+		EB8D661E7C6D0A3075DB3BBDF3051D2B /* Pods-Allergy CompassTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Allergy CompassTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EE9BB0A359A5567A9CC9FD9F9E9D6AF6 /* DefaultValues.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultValues.swift; path = Sources/DefaultValues.swift; sourceTree = "<group>"; };
+		F3D9B6C203E307B39A8734B22B4AEF2A /* Pods-Allergy Compass-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Allergy Compass-dummy.m"; sourceTree = "<group>"; };
+		F3E77994B735A1E350D3FF0A597EC5B0 /* Pods-Allergy CompassUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Allergy CompassUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5F8A7CDCB806C347FEA90A31DD29070 /* Pods-Allergy Compass.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Allergy Compass.modulemap"; sourceTree = "<group>"; };
+		FB622B82EEBFD74A528AE732973FA184 /* Pods-Allergy Compass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Allergy Compass.debug.xcconfig"; sourceTree = "<group>"; };
+		FD608BCCF279B1277BB911F33106997F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		044E0DF3E8A742E72242925B2FFEF0FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AF77E6823887DFE89A3E24E9E57A34E /* CoreGraphics.framework in Frameworks */,
+				2229A6998218AC6DFF497473500021C7 /* Foundation.framework in Frameworks */,
+				690A3616858F1EF14011B02B88924458 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A2789EF63DCFFE2E173A8CB41969910 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCEFC70D7166CF8EF32BBD963FD1D06B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		135B1516149ED03511F1659DC7AD0EAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7739D5F4D21132A52676AC6575187C5E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB663FCAEA3A043FA8B1D54CFD2E22A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE52C860B11521E947377598271B58EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABE8076CBFEE71A3B199C34F20F66745 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		392A052C57A4BCEEF46BE92FC96870E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */,
+				2942D6913F7930FAA8DA3943A35D1D56 /* Pods_Allergy_Compass.framework */,
+				65F5A4D80294AF89DDCA6DFC257AD202 /* Pods_Allergy_CompassTests.framework */,
+				013709D306905DA27181D2333D0ADD84 /* Pods_Allergy_CompassUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C366373877D81E2C2D703AB049730CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F553CC69AE2C61CEBF2ED1857678B6D /* Pods-Allergy Compass */,
+				411ED3D777B703D7D61246A2109A7852 /* Pods-Allergy CompassTests */,
+				C24DB52E93B4003EB7A7BACBD2042CDE /* Pods-Allergy CompassUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		411ED3D777B703D7D61246A2109A7852 /* Pods-Allergy CompassTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2199D8DB12D18FDEB51905B6B8246F3 /* Pods-Allergy CompassTests.modulemap */,
+				EB8D661E7C6D0A3075DB3BBDF3051D2B /* Pods-Allergy CompassTests-acknowledgements.markdown */,
+				879D975575221CAC165DC70AB707213B /* Pods-Allergy CompassTests-acknowledgements.plist */,
+				4E25B5F70C9EC83C8FBA0F91CC50A3DF /* Pods-Allergy CompassTests-dummy.m */,
+				C69921AB4DA57F278B02ECA3E6D6733D /* Pods-Allergy CompassTests-Info.plist */,
+				E7B48C1EBAC3E3A1B67ED01C9E4A6EB3 /* Pods-Allergy CompassTests-umbrella.h */,
+				02FB4984223756D173B3AF4A06C66784 /* Pods-Allergy CompassTests.debug.xcconfig */,
+				71E48625B501AA24C5BEADA931BAD08E /* Pods-Allergy CompassTests.release.xcconfig */,
+			);
+			name = "Pods-Allergy CompassTests";
+			path = "Target Support Files/Pods-Allergy CompassTests";
+			sourceTree = "<group>";
+		};
+		5F553CC69AE2C61CEBF2ED1857678B6D /* Pods-Allergy Compass */ = {
+			isa = PBXGroup;
+			children = (
+				F5F8A7CDCB806C347FEA90A31DD29070 /* Pods-Allergy Compass.modulemap */,
+				9DA8C6A9D1EAE326A6FC6B383A237421 /* Pods-Allergy Compass-acknowledgements.markdown */,
+				3EDA1317675094718EE8DAD486E6979F /* Pods-Allergy Compass-acknowledgements.plist */,
+				F3D9B6C203E307B39A8734B22B4AEF2A /* Pods-Allergy Compass-dummy.m */,
+				4C806B7F993A47357DF0A5632BC6CF42 /* Pods-Allergy Compass-frameworks.sh */,
+				78C243A567B230A31A64EE9A2A483FA0 /* Pods-Allergy Compass-Info.plist */,
+				B7FB5C0673DAF3B36EF46129EDBB22EE /* Pods-Allergy Compass-umbrella.h */,
+				FB622B82EEBFD74A528AE732973FA184 /* Pods-Allergy Compass.debug.xcconfig */,
+				A687D96F2B67CBC9E9557F27664C0DC0 /* Pods-Allergy Compass.release.xcconfig */,
+			);
+			name = "Pods-Allergy Compass";
+			path = "Target Support Files/Pods-Allergy Compass";
+			sourceTree = "<group>";
+		};
+		9CA337DB02C2B7FF00F49DAC41507D2C /* M13Checkbox */ = {
+			isa = PBXGroup;
+			children = (
+				EE9BB0A359A5567A9CC9FD9F9E9D6AF6 /* DefaultValues.swift */,
+				4AE329607D72E8ACD6EC21D9D45F9B04 /* M13Checkbox.swift */,
+				5E2C72EDC8A036D53426A667ACB604A1 /* M13Checkbox+IB.swift */,
+				2E59F6FCC139E86AEDDD7D75615F9B7F /* M13CheckboxAddRemovePathGenerator.swift */,
+				94BB241540E44D8637BCEBFB5FE5A206 /* M13CheckboxAnimationGenerator.swift */,
+				5CB44EADFD8CD7B21C070D947A015621 /* M13CheckboxBounceController.swift */,
+				B82B3A8E06131379730D362E99C4B472 /* M13CheckboxCheckPathGenerator.swift */,
+				EAE523114A05177E0CC9B6E0F1AB178E /* M13CheckboxController.swift */,
+				5840952A04CFAA95BA336043AC1A5F65 /* M13CheckboxDisclosurePathGenerator.swift */,
+				DAF933D2FC06E6B883A45C0CA17E9744 /* M13CheckboxDotController.swift */,
+				2FFF75A31482EB977ED79742A727D629 /* M13CheckboxExpandController.swift */,
+				9EE048C201E7502747682B03BE0E4ED1 /* M13CheckboxFadeController.swift */,
+				3FC0E6830D3153501694B068A9F3DFB9 /* M13CheckboxFillController.swift */,
+				C8B6C15FC833B4D6BF17B64AABE8AE14 /* M13CheckboxFlatController.swift */,
+				11ADEBBF9F6508F304908F924047B31B /* M13CheckboxGestureRecognizer.swift */,
+				2B78B80CAB1AAF8B4F0667C0E88E74D4 /* M13CheckboxPathGenerator.swift */,
+				880D7D28765AC9C8E3A3C4717496A23D /* M13CheckboxRadioPathGenerator.swift */,
+				D96B3DBBBE7519C96D35DFD0B7459792 /* M13CheckboxSpiralController.swift */,
+				1DD7B1DC2B91101DEC2FD9E8781A5530 /* M13CheckboxStrokeController.swift */,
+				F082AFF79FBCD89D49823EFDBBCFDFBE /* Support Files */,
+			);
+			name = M13Checkbox;
+			path = M13Checkbox;
+			sourceTree = "<group>";
+		};
+		A4C0F3CA1DBB4974112D58B346BEC7C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CA337DB02C2B7FF00F49DAC41507D2C /* M13Checkbox */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABE8076CBFEE71A3B199C34F20F66745 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				276842F3A283EE87124FE6C3EAAFD184 /* CoreGraphics.framework */,
+				FD608BCCF279B1277BB911F33106997F /* Foundation.framework */,
+				01BDA658338AD3813D969D7011B56B8D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C24DB52E93B4003EB7A7BACBD2042CDE /* Pods-Allergy CompassUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B817148A7A0F14AEBCD3F4CF1935630 /* Pods-Allergy CompassUITests.modulemap */,
+				65359601101A1101BA5016AC0F4BCE90 /* Pods-Allergy CompassUITests-acknowledgements.markdown */,
+				89D19B9EAE5B03D83569CD8C3860689B /* Pods-Allergy CompassUITests-acknowledgements.plist */,
+				0FB73B840B18926C1AC161274E648F09 /* Pods-Allergy CompassUITests-dummy.m */,
+				0B293F37C9B03BF812B0B223029413F1 /* Pods-Allergy CompassUITests-Info.plist */,
+				6987A33599C43B961759F058B1DD60A7 /* Pods-Allergy CompassUITests-umbrella.h */,
+				7E98470441594CB847C58AAB0AD59080 /* Pods-Allergy CompassUITests.debug.xcconfig */,
+				F3E77994B735A1E350D3FF0A597EC5B0 /* Pods-Allergy CompassUITests.release.xcconfig */,
+			);
+			name = "Pods-Allergy CompassUITests";
+			path = "Target Support Files/Pods-Allergy CompassUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				A4C0F3CA1DBB4974112D58B346BEC7C9 /* Pods */,
+				392A052C57A4BCEEF46BE92FC96870E4 /* Products */,
+				3C366373877D81E2C2D703AB049730CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F082AFF79FBCD89D49823EFDBBCFDFBE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3CC976CE0F98D3CF3AA06C0E12F25A02 /* M13Checkbox.modulemap */,
+				8C66840F8DB62B36EA1FD399E0D622B7 /* M13Checkbox.xcconfig */,
+				CC68B3A86E6425551F8AFB78F1A998ED /* M13Checkbox-dummy.m */,
+				AE32D4AFE65B00CD487BF04E69B52952 /* M13Checkbox-Info.plist */,
+				D294A81CEC923737F257060FBD516F64 /* M13Checkbox-prefix.pch */,
+				52C8B82D0BDB8346230E4CF784460AF8 /* M13Checkbox-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/M13Checkbox";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		01AB61E8CCEBE2510999924763D88BE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C10AD695E632D8979EF4F9AA947BCE29 /* Pods-Allergy CompassTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABBFB91D2243AC0C4A5C35F19042C4ED /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F66F6CFF19118E84D625B485982C3210 /* Pods-Allergy CompassUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2451AF72D6F6E49E6DDD89EBEB5F3B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA89E0222ABBC43F957E4F3BF7F46142 /* M13Checkbox-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC40F86885D1C833501633404320BFE5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3240342CB5ECE0F2B8C449DB96DF1172 /* Pods-Allergy Compass-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		227D119A576C54888A596E3A70182B7F /* Pods-Allergy CompassUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4EA3958AF30B4A759B21B34B98735EB8 /* Build configuration list for PBXNativeTarget "Pods-Allergy CompassUITests" */;
+			buildPhases = (
+				ABBFB91D2243AC0C4A5C35F19042C4ED /* Headers */,
+				E97AC7838FDCBFCBD0FF2CC318A7008C /* Sources */,
+				BB663FCAEA3A043FA8B1D54CFD2E22A9 /* Frameworks */,
+				82E38C3D7FFBC398C95B8A3C9B1C1A09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98F9AE9D6C107EB0F5356A3EC4F45A13 /* PBXTargetDependency */,
+			);
+			name = "Pods-Allergy CompassUITests";
+			productName = "Pods-Allergy CompassUITests";
+			productReference = 013709D306905DA27181D2333D0ADD84 /* Pods_Allergy_CompassUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		66059EB0B879A7761B19CFEBF3DAC914 /* Pods-Allergy CompassTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F5EC2851C2271A7452BC727759E973 /* Build configuration list for PBXNativeTarget "Pods-Allergy CompassTests" */;
+			buildPhases = (
+				01AB61E8CCEBE2510999924763D88BE1 /* Headers */,
+				B292F48482FE48297DF6576205F45DB7 /* Sources */,
+				135B1516149ED03511F1659DC7AD0EAA /* Frameworks */,
+				615B3BE91261ABC5AFE60F24D29FBC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E776B0131D97EED2FA05961AB1B5C9AD /* PBXTargetDependency */,
+			);
+			name = "Pods-Allergy CompassTests";
+			productName = "Pods-Allergy CompassTests";
+			productReference = 65F5A4D80294AF89DDCA6DFC257AD202 /* Pods_Allergy_CompassTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C969E3F923CFEC15B65102F99FD224A /* Build configuration list for PBXNativeTarget "M13Checkbox" */;
+			buildPhases = (
+				E2451AF72D6F6E49E6DDD89EBEB5F3B0 /* Headers */,
+				503F91742D9CCF37EC57DE6A97BFC95F /* Sources */,
+				044E0DF3E8A742E72242925B2FFEF0FE /* Frameworks */,
+				5CD1EAD0AB3217599754FFDCB8C48357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = M13Checkbox;
+			productName = M13Checkbox;
+			productReference = 5CE79C5BF20743404E59BEFD080A364D /* M13Checkbox.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90971AC90E5F52443A14E6808002B85E /* Pods-Allergy Compass */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFF17A8CB9AA8280C298DC40EC605CBB /* Build configuration list for PBXNativeTarget "Pods-Allergy Compass" */;
+			buildPhases = (
+				EC40F86885D1C833501633404320BFE5 /* Headers */,
+				707D5A87E836983A8D194C54FEC0B5B2 /* Sources */,
+				0A2789EF63DCFFE2E173A8CB41969910 /* Frameworks */,
+				5A2DC8E36833D30E8169CD1810FD978E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65A8CD77D4524BD92BE373EDC8F246D1 /* PBXTargetDependency */,
+			);
+			name = "Pods-Allergy Compass";
+			productName = "Pods-Allergy Compass";
+			productReference = 2942D6913F7930FAA8DA3943A35D1D56 /* Pods_Allergy_Compass.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 392A052C57A4BCEEF46BE92FC96870E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */,
+				90971AC90E5F52443A14E6808002B85E /* Pods-Allergy Compass */,
+				66059EB0B879A7761B19CFEBF3DAC914 /* Pods-Allergy CompassTests */,
+				227D119A576C54888A596E3A70182B7F /* Pods-Allergy CompassUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5A2DC8E36833D30E8169CD1810FD978E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CD1EAD0AB3217599754FFDCB8C48357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		615B3BE91261ABC5AFE60F24D29FBC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82E38C3D7FFBC398C95B8A3C9B1C1A09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		503F91742D9CCF37EC57DE6A97BFC95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08B31BE69E7F9FD79F888D6878470CE /* DefaultValues.swift in Sources */,
+				B642D0A666A7B76CE25C412820331536 /* M13Checkbox+IB.swift in Sources */,
+				254315B3201BB02B083E2B189DD456E3 /* M13Checkbox-dummy.m in Sources */,
+				A14D173D1A208AE9ADB6419B6BFBF426 /* M13Checkbox.swift in Sources */,
+				A7448C3B3357059EE87853CFF2BE09C4 /* M13CheckboxAddRemovePathGenerator.swift in Sources */,
+				97A18E7CA66BA87E83A038BF75B2DCB2 /* M13CheckboxAnimationGenerator.swift in Sources */,
+				D035EDC528DBF5BA980CDF5299828034 /* M13CheckboxBounceController.swift in Sources */,
+				E9D6E5290AA728E26BB83686BABD683A /* M13CheckboxCheckPathGenerator.swift in Sources */,
+				D5584524FE609C7CD27E83BCB74CE685 /* M13CheckboxController.swift in Sources */,
+				91DE47E4BCDE92CC97123C314723B3A8 /* M13CheckboxDisclosurePathGenerator.swift in Sources */,
+				B323D65D6BE2950D9615F791E7A90A7F /* M13CheckboxDotController.swift in Sources */,
+				56BC1A6298E10CCE7703ADBC5AD48FAC /* M13CheckboxExpandController.swift in Sources */,
+				FF6BF71F784703DB5F302C257245A51B /* M13CheckboxFadeController.swift in Sources */,
+				B0471D9061D1AE1F54C08242A5773ECF /* M13CheckboxFillController.swift in Sources */,
+				0348E72A279882575367B52CE6A0C2B1 /* M13CheckboxFlatController.swift in Sources */,
+				3E3EB29E1A912DA51B5A537C152AA490 /* M13CheckboxGestureRecognizer.swift in Sources */,
+				C2BA008A914F681607429815D2EDEA95 /* M13CheckboxPathGenerator.swift in Sources */,
+				99FBBAF5AEB8A1895DAB1752E3AB115C /* M13CheckboxRadioPathGenerator.swift in Sources */,
+				AE32CE1F494D51291E92F6B0C29D7034 /* M13CheckboxSpiralController.swift in Sources */,
+				54295CEF5B5271B336B17776A282D3C6 /* M13CheckboxStrokeController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		707D5A87E836983A8D194C54FEC0B5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3B95D051E3D9A63FFD387EFF8F05E0F /* Pods-Allergy Compass-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B292F48482FE48297DF6576205F45DB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88B4067EF8672CE64D431F475CAC55EC /* Pods-Allergy CompassTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E97AC7838FDCBFCBD0FF2CC318A7008C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27FB8E7237044F69D431570D780EB618 /* Pods-Allergy CompassUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65A8CD77D4524BD92BE373EDC8F246D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = M13Checkbox;
+			target = 7111E54EAE43E89F451A75076C3525ED /* M13Checkbox */;
+			targetProxy = 0BE858ADC6E2E91E84E7EF503A8E42A7 /* PBXContainerItemProxy */;
+		};
+		98F9AE9D6C107EB0F5356A3EC4F45A13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Allergy Compass";
+			target = 90971AC90E5F52443A14E6808002B85E /* Pods-Allergy Compass */;
+			targetProxy = 266B63DED3BF4ABCC598A063F3F9DD79 /* PBXContainerItemProxy */;
+		};
+		E776B0131D97EED2FA05961AB1B5C9AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Allergy Compass";
+			target = 90971AC90E5F52443A14E6808002B85E /* Pods-Allergy Compass */;
+			targetProxy = 0B934CDE22577E7CFA29B4765BD80AF1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		510B057D2E9F059C50D52DA5D90F3ACF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5CFA339BB62D17136B92C6450BC44B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A687D96F2B67CBC9E9557F27664C0DC0 /* Pods-Allergy Compass.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		64E2CAF6F84F49171391395CED69A3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E98470441594CB847C58AAB0AD59080 /* Pods-Allergy CompassUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Allergy CompassUITests/Pods-Allergy CompassUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Allergy CompassUITests/Pods-Allergy CompassUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		67B5526BD883ACE31047B6BF33A56EA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71E48625B501AA24C5BEADA931BAD08E /* Pods-Allergy CompassTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Allergy CompassTests/Pods-Allergy CompassTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Allergy CompassTests/Pods-Allergy CompassTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		76B54AC560F3129E7567DE352905E80A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02FB4984223756D173B3AF4A06C66784 /* Pods-Allergy CompassTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Allergy CompassTests/Pods-Allergy CompassTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Allergy CompassTests/Pods-Allergy CompassTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7FBC2164C77486E1C6CE0ACCD088B56F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C66840F8DB62B36EA1FD399E0D622B7 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		804E13245C9FBBE6A340C555CA8B2B4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		856A4A3102DF1AB41D672284C54D29F5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C66840F8DB62B36EA1FD399E0D622B7 /* M13Checkbox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/M13Checkbox/M13Checkbox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/M13Checkbox/M13Checkbox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/M13Checkbox/M13Checkbox.modulemap";
+				PRODUCT_MODULE_NAME = M13Checkbox;
+				PRODUCT_NAME = M13Checkbox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD6D848BCC617588AF2923697F395D6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB622B82EEBFD74A528AE732973FA184 /* Pods-Allergy Compass.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Allergy Compass/Pods-Allergy Compass.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DB3F85D73DFE1469C3E08881C7B91F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3E77994B735A1E350D3FF0A597EC5B0 /* Pods-Allergy CompassUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Allergy CompassUITests/Pods-Allergy CompassUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Allergy CompassUITests/Pods-Allergy CompassUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C969E3F923CFEC15B65102F99FD224A /* Build configuration list for PBXNativeTarget "M13Checkbox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FBC2164C77486E1C6CE0ACCD088B56F /* Debug */,
+				856A4A3102DF1AB41D672284C54D29F5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F5EC2851C2271A7452BC727759E973 /* Build configuration list for PBXNativeTarget "Pods-Allergy CompassTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B54AC560F3129E7567DE352905E80A /* Debug */,
+				67B5526BD883ACE31047B6BF33A56EA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				804E13245C9FBBE6A340C555CA8B2B4C /* Debug */,
+				510B057D2E9F059C50D52DA5D90F3ACF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4EA3958AF30B4A759B21B34B98735EB8 /* Build configuration list for PBXNativeTarget "Pods-Allergy CompassUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64E2CAF6F84F49171391395CED69A3DC /* Debug */,
+				DB3F85D73DFE1469C3E08881C7B91F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFF17A8CB9AA8280C298DC40EC605CBB /* Build configuration list for PBXNativeTarget "Pods-Allergy Compass" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD6D848BCC617588AF2923697F395D6F /* Debug */,
+				5CFA339BB62D17136B92C6450BC44B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
