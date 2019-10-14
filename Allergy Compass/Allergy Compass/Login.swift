@@ -19,6 +19,7 @@ class Login: ViewController{
     }
     override func viewDidLoad() {
         super.viewDidLoad();
+        password.isSecureTextEntry = true
     }
     override func viewDidAppear(_ animated: Bool)  {
         super.viewDidLoad()
